@@ -8,7 +8,7 @@
       "./scripts/customizer.js"
     ]
   },
-  "publicPath": "/app/themes/itemilie",
+  "publicPath": "/app/themes/ITemilie",
   "devUrl": "http://ITemilie.lndo.site",
   "proxyUrl": "http://localhost:3000",
   "cacheBusting": "[name]_[hash:8]",
