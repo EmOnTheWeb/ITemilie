@@ -1,0 +1,17 @@
+name: ITemilie
+proxy:
+  appserver:
+    - ITemilie.lndo.site
+services:
+  appserver:
+    type: php:7.2
+    via: apache
+    webroot: ./web/
+  database:
+    type: mysql
+    creds:
+      user: ITemilie_com
+      password: DDZ6UHQsb594uqVT
+      database: ITemilie_com_development
+volumes:
+  - ./:/app/
